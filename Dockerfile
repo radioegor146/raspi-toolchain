@@ -4,9 +4,9 @@
 FROM ubuntu:latest
 
 # This should match the one on your raspi
-ENV GCC_VERSION gcc-8.3.0
-ENV GLIBC_VERSION glibc-2.28
-ENV BINUTILS_VERSION binutils-2.31.1
+ENV GCC_VERSION gcc-10.2.1
+ENV GLIBC_VERSION glibc-2.21
+ENV BINUTILS_VERSION binutils-2.35.2
 ARG DEBIAN_FRONTEND=noninteractive
 
 
